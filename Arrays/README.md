@@ -22,7 +22,6 @@
 - [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 - [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)
 - [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
-- [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-difference-less-than-or-equal-to-limit/)
 
 ---
 
