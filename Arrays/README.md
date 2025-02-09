@@ -19,6 +19,7 @@
 
 - [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
   (Kadane’s algorithm is a variant of the sliding window technique.)
+- [maximum sum circular subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)
 - [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 - [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)
 - [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
