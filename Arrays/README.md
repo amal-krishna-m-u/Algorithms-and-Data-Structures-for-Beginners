@@ -22,6 +22,7 @@
 - [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 - [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)
 - [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+- [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 ---
 
