@@ -4,7 +4,7 @@ This repository is a comprehensive collection of notes, theory, and coding probl
 
 ## 📌 Topics Covered
 
-- **Arrays**
+- **Arrays** :[Content](https://github.com/amal-krishna-m-u/Algorithms-and-Data-Structures-for-Beginners/tree/main/Arrays)
 - **Linked Lists**
 - **Sorting Algorithms**
 - **Recursion**
