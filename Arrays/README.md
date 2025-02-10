@@ -24,6 +24,7 @@
 - [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)
 - [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
 - [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- [Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/description/)
 
 ---
 
