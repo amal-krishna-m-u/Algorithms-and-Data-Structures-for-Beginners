@@ -27,3 +27,6 @@ k = 3
 threshold = 4
 
 # output: 3
+
+
+print("output:",numOfSubarrays(arr,k,threshold))
