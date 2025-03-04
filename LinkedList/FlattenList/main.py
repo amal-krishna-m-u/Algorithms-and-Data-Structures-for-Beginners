@@ -11,13 +11,12 @@ def FlattenList(Head):
     if not Head:
         return 
         
-    new_head = Node(Head)
+    new_head = Head
     curr_node = new_head
     
     
     def dfs(node):
-        
-        
+        nonlocal curr_node
         if not node :
             return 
             
@@ -34,8 +33,8 @@ def FlattenList(Head):
             curr_node.next = new_node
             curr_node = curr_node.next
             dfs(node.next)
-            
-    
+        if node.next and node.child:
+            dfs(node.next)
     
     dfs(curr_node)
     return new_head.next
