@@ -1,3 +1,5 @@
+from collections import defaultdict
+
 def sumOfFlooredPairs(nums)->int:
     
     sum_of_floored_pairs=0
@@ -6,13 +8,13 @@ def sumOfFlooredPairs(nums)->int:
     count = defaultdict(int)
     max_num = max(nums)
     #prefix_sum
-    range_till_n=[0] * (max_sum+1)
+    range_till_n=[0] * (max_num+1)
     
     for num in nums:
         count[num]+=1
     
     for i in range(1,max_num+1):
-        range_till_n[i] = range_till_n[i-1]+count[i]
+        range_till_n[i] = range_till_n[i-1] + count[i]
     
     
     for num in count:
@@ -22,8 +24,7 @@ def sumOfFlooredPairs(nums)->int:
         while num*k<=max_num:
             start = num*k
             end=min(num * (k+1)-1,max_num)
-            sum_of_floored_pairs = ( range_till_n[end]-range_till_n[start-1]) * k * count[num]
-            sum_of_floored_pairs %= MOD
+            sum_of_floored_pairs += (range_till_n[end]-range_till_n[start-1]) * k * count[num]
             k+=1
 
     
